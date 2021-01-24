@@ -3,15 +3,21 @@ body {
 }
 header,
 footer {
-  background-color: #2d2dd6;
+  background-color: #1a329e;
   text-align: center;
   padding: 25px;
   color: white;
   border-radius: 10px;
 
 }
+a:link,a:visited {
+  color:#DCE2F9;
+}
+a:visited{
+  text-decoration: underline;
+}
 #lastchange{
-  color: #b8501c; ;
+  color: #b9f3d1; ;
 }
 header {
   font-size: 45px;
