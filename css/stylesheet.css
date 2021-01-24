@@ -8,16 +8,15 @@ footer {
   padding: 25px;
   color: white;
   border-radius: 10px;
-
 }
-a:link,a:visited {
-  color:#DCE2F9;
+#byuilink:link {
+  color: #dce2f9;
 }
-a:visited{
-  text-decoration: underline;
+#byuilink:visited {
+  color: #f7dee2;
 }
-#lastchange{
-  color: #b9f3d1; ;
+#lastchange {
+  color: #b9f3d1;
 }
 header {
   font-size: 45px;
