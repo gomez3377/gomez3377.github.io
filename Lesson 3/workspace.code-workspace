@@ -1,0 +1,19 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"path": "..\\..\\..\\..\\Desktop\\gomez3377.github.io\\css"
+		},
+		{
+			"path": "..\\..\\..\\..\\Desktop\\gomez3377.github.io\\images"
+		},
+		{
+			"path": "..\\..\\..\\..\\Desktop\\gomez3377.github.io\\javascript"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "gomez3377.github.io"
+	}
+}
