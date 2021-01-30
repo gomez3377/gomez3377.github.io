@@ -1,8 +1,7 @@
-header,
-footer {
+header, footer {
   background-color: white;
   color: #0093b8;
-  border-radius: 25p;
+  border-radius: 25px;
   padding: 3px;
 }
 h1,
