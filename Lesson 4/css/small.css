@@ -1,66 +1,93 @@
-header, footer {
-    background-color: white;
-    color: #8D2E16;
-    border-radius: 25p;
-    padding: 3px;
-}
-
+header,
 footer {
-    font-family: 'Soloway', serif;
-    text-align: center;
+  background-color: white;
+  color: #0093b8;
+  border-radius: 25p;
+  padding: 3px;
 }
-#logo {
-    float: left;
-    width: 7rem;
+h1,
+h2,
+h3,
+nav,
+.motto {
+  font-weight: normal;
 }
-h1, h2{
-    text-align: center;
-    font-family:'Righteous', cursive;
-}
-h3 {
-    text-align: center;
-    font-family: 'Righteous', cursive;
-    color: #8D2E16;
-}
-nav{
-    background-color: #00a3cc;
-    font-family: 'Righteous', cursive;
 
-    
+#logo {
+  float: left;
+  width: 7rem;
+}
+h1,
+.motto {
+  text-align: center;
+  font-family: "Righteous", cursive;
+  letter-spacing: 2px;
+}
+.motto {
+  color: #93341a;
+  padding-bottom: 25px;
+  font-size: 17px;
+}
+
+nav {
+  background-color: #93341a;
+  font-family: "Righteous", cursive;
+  letter-spacing: 1px;
+  font-size: 1.25rem;
 }
 nav button {
-    background-color: transparent;
-    border: none;
-    color: white;
-    font-size: 25px;
+  background-color: transparent;
+  border: none;
+  color: white;
+  font-size: 30px;
 }
 nav ul {
-    list-style-type: none;
-    padding: 0%;
-    margin: 0%;
+  list-style-type: none;
+  margin-top: 2.5%;
+  padding-left: 2%;
 }
-nav ul li a{
-    margin-top: 5rem;
-    text-decoration: none;
-    color: white;
-    padding: 25px;
-    border-top: 1px solid, white;
+nav ul li {
+    padding:0.2rem
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
 }
 nav ul li a:hover {
-    background-color: rgba(0,0,0,0.3);
-
+  background-color: rgb(0, 0, 0, 0.4);
 }
-
 nav ul li.active a {
-    background-color: rgba(0,0,0,0.2);
-    color: white;
+  background-color: white;
+  color: #93341a;
 }
 nav ul.hide {
-    display:none;
+  display: none;
+}
+h2,
+h3 {
+  text-align: center;
+  font-family: "Righteous", cursive;
+  padding: 25px;
+  letter-spacing: 2px;
+}
+h2,
+.Section2 {
+  color: #0093b8;
+}
+.Section1 {
+  background-color: #0093b8;
+  color: white;
+}
+footer {
+  background-color: #0093b8;
+  font-family: "Soloway", serif;
+  text-align: center;
+  color: white;
 }
 /*----- Clearfix: Force an Element not to collapse -----*/
 .clearfix:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
+  content: "";
+  display: table;
+  clear: both;
+}

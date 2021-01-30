@@ -1,19 +1,11 @@
-@media only screen and (min-width: 52rem){
-    nav{
-        background-color: #00a3cc;
-        font-family: 'Righteous', cursive;
-    }
-    nav button {display:none;
-    }
-    nav ul.hide {display: block;}
-    
-    nav ul li {
-        float: left;
-        padding: 12px;
-    
-    }
-    nav ul li a {
-        border: none;
-        border-right: 1px solid white;
-        padding: 0.8rem 1rem;}
+@media only screen and (min-width: 36rem) {
+  nav {
+    font-family: "Righteous", cursive;
+  }
+
+  nav ul li a {
+    justify-content: center;
+    padding: 0%;
+    font-size: 2rem;
+  }
 }
