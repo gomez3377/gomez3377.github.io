@@ -1,0 +1,13 @@
+@media only screen and (min-width: 36rem) {
+  nav {
+    font-family: "Righteous", cursive;
+  }
+
+  nav ul li a {
+    padding: 0%;
+    font-size: 2rem;
+  }
+  h2, h3 {
+    text-align: left;
+  }
+}

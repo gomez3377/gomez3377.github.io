@@ -1,0 +1,21 @@
+@media only screen and (min-width: 76rem) {
+  nav button {
+    display: none;
+  }
+  nav ul li {
+    float: left;
+    padding: 0.5rem;
+  }
+  nav ul.hide {
+    display: block;
+  }
+  nav ul li a {
+    border: none;
+    padding: 0.5rem 2rem;
+    font-size: larger;
+  }
+  body {
+    max-width: 1500px;
+  }
+
+}
