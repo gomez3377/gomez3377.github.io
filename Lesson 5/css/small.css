@@ -107,12 +107,17 @@ p{
   background-color: #93341A;
   color: white;
 }
+
 footer {
   background-color: #93341a;
   font-family: "Soloway", serif;
   text-align: center;
   color: white;
   padding: 25px;
+}
+.social {
+  width: 32px;
+  padding: 2.5%;
 }
 /*----- Clearfix: Force an Element not to collapse -----*/
 .clearfix:after {
