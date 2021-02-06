@@ -18,6 +18,15 @@ nav,nav button,
   float: left;
   width: 7rem;
 }
+.banner{
+  color: white;
+  background-color: #93341a;
+  text-align: center;
+  font-family: "Righteous", cursive;
+  letter-spacing: 2px;
+  position: fixed;
+  font-weight: normal;
+}
 h1,
 .motto {
   text-align: center;
