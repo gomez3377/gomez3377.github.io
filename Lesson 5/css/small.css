@@ -24,7 +24,8 @@ nav,nav button,
   text-align: center;
   font-family: "Righteous", cursive;
   letter-spacing: 2px;
-  position: fixed;
+  display: flex;
+  justify-content: center;
   font-weight: normal;
 }
 h1,
