@@ -1,4 +1,4 @@
-@media only screen and (min-width: 77rem) {
+@media only screen and (min-width: 78rem) {
   nav button {
     display: none;
   }
@@ -14,13 +14,11 @@
     padding: 0.5rem 2rem;
     font-size: larger;
   }
-  body {
-    max-width: 1500px;
-  }
+
 h2, h3 {
   text-align: center;
 }
-#Weathersummary{
+.Weathersummary{
   position: absolute;
   top: 350px;
   background-color: #99341a;

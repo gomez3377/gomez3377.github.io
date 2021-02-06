@@ -66,13 +66,12 @@ nav ul li.active a {
 nav ul.hide {
   display: none;
 }
-h2,
-h3{
+h2{
   text-align: center;
   font-family: "Righteous", cursive;
   letter-spacing: 2px;
 }
-h2 {
+.titleandimg {
   color: #0093b8;
 }
 section{
@@ -94,7 +93,7 @@ p{
 #heroimage{
   width: 100%
 }
-.Section2 {
+.fiveday {
   background-color: #93341A;
   color: white;
 }
