@@ -1,4 +1,4 @@
-@media only screen and (min-width: 76rem) {
+@media only screen and (min-width: 77rem) {
   nav button {
     display: none;
   }
@@ -17,5 +17,7 @@
   body {
     max-width: 1500px;
   }
-
+h2, h3 {
+  text-align: center;
+}
 }
