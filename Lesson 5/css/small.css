@@ -80,13 +80,13 @@ section{
   margin: 0 auto;
   padding: 20px;
 }
-span {
+#phototag {
   font-size: 60%;
 }
-span a{
+#phototag a{
   color: #93341a;
 }
-span a:visited {
+#phototag a:visited {
   color: #93341a;
 }
 p{
@@ -96,11 +96,11 @@ p{
   width: 100%
 }
 .Section2 {
-  background-color: #0093b8;
+  background-color: #93341A;
   color: white;
 }
 footer {
-  background-color: #0093b8;
+  background-color: #;
   font-family: "Soloway", serif;
   text-align: center;
   color: white;
