@@ -19,7 +19,8 @@
   }
 h2, h3 {
   text-align: center;
-}#Weathersummary{
+}
+#Weathersummary{
   position: absolute;
   top: 350px;
   background-color: #99341a;
