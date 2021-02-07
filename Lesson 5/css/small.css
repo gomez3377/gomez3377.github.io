@@ -20,7 +20,7 @@ nav,nav button,
 }
 .banner{
   color: white;
-  background-color: #93341a;
+  background-color: #002129;
   text-align: center;
   font-family: "Righteous", cursive;
   letter-spacing: 2px;
@@ -41,7 +41,7 @@ h1,
 }
 
 nav {
-  background-color: #93341a;
+  background-color: #002129;
   font-family: "Righteous", cursive;
   letter-spacing: 1px;
   font-size: 1.25rem;
@@ -67,11 +67,11 @@ nav ul li a {
   color: white;
 }
 nav ul li a:hover {
-  background-color: rgb(0, 0, 0, 0.4);
+  background-color:#93341a;
 }
 nav ul li.active a {
   background-color: white;
-  color: #93341a;
+  color: #002129;
 }
 nav ul.hide {
   display: none;
@@ -90,6 +90,7 @@ section{
 }
 #phototag {
   font-size: 60%;
+  color: #002129;
 }
 #phototag a{
   color: #93341a;
@@ -97,19 +98,53 @@ section{
 #phototag a:visited {
   color: #93341a;
 }
+
 p{
   font-family: "Soloway", serif;
 }
-#heroimage{
+#heroimage , .articleimg {
   width: 100%
 }
+#currentweather {
+  width: 25%;
+  float: right;
+}
 .fiveday {
-  background-color: #93341A;
+  background-color: white;
+  color:#93341a;
+}
+.Weathersummary, .Article {
+  background-color: #93341a;
   color: white;
+}
+.days, .temp {
+  display: flex;
+  justify-content: center;
+  font-family: 'Righteous', cursive;
+  font-style: normal;
+  letter-spacing: 2px;
+  color: white;
+}
+.days{
+  padding: 25px;
+  font-size: 24px;
+  background-color: #93341a;
+}
+.temp{
+  padding: 15px;
+  font-size: 16px;
+  background-color: #002129;
+}
+.weathercond {
+  background-color: white;
+  width: 50%;
+  position: relative;
+  left: 20%;
+  padding: 20px;
 }
 
 footer {
-  background-color: #93341a;
+  background-color: #002129;
   font-family: "Soloway", serif;
   text-align: center;
   color: white;
@@ -118,6 +153,10 @@ footer {
 .social {
   width: 32px;
   padding: 2.5%;
+}
+.map {
+  width: 100%;
+
 }
 /*----- Clearfix: Force an Element not to collapse -----*/
 .clearfix:after {
