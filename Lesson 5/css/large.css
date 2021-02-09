@@ -15,15 +15,22 @@
     font-size: larger;
   }
 
-h2, h3 {
-  text-align: center;
-}
-.Weathersummary{
-  position: absolute;
-  top: 350px;
-  background-color: #99341a;
-  border: 1px solid #000;
-  opacity: 0.9;
-  color: white;
-}
+  h2,
+  h3 {
+    text-align: center;
+  }
+  .Weathersummary {
+    position: absolute;
+    top: 350px;
+    background-color: #99341a;
+    border: 1px solid #000;
+    opacity: 0.9;
+    color: white;
+  }
+
+  .articleimg {
+    width: 35%;
+    float: right;
+    padding-left: 25px;
+  }
 }
