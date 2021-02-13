@@ -110,11 +110,11 @@ figcaption#phototag a:visited {
 }
 
 p {
-  font-family: "Soloway", serif;
+  font-family: "Cormorant", serif;
 }
 
-
-.articleimg {
+main section.Article img.articleimg,
+main section.Article img.articleimg2 {
   width: 100%;
 }
 #currentweather {
@@ -159,7 +159,7 @@ p {
 
 footer {
   background-color: #002129;
-  font-family: "Soloway", serif;
+  font-family: "Cormorant", serif;
   text-align: center;
   color: white;
   padding: 25px;

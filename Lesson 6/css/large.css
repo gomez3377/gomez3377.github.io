@@ -31,12 +31,19 @@
   }
   main section img#currentweather {
     float: right;
-    width: 25%;
+    width: 35%;
   }
-
+  main section.Article {
+    width: 100%;
+  }
   main section.Article img.articleimg {
     width: 20%;
     float: right;
-    padding-left: 25px;
+    padding: 25px;
+  }
+  main section.Article img.articleimg2 {
+    width: 20%;
+    float: left;
+    padding: 25px;
   }
 }
