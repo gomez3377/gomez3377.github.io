@@ -22,9 +22,7 @@
     padding: 10px;
     width: 100%;
   }
-  .weathercond {
-    width: 20%;
-  }
+  
   #day1cond {
     grid-row-start: 2;
     grid-column-start: 1;
