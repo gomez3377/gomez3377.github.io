@@ -1,0 +1,1 @@
+Webfont.load({google: {families: ["Righteous", "Cormorant"]}});
