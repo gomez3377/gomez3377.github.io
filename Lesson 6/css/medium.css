@@ -1,0 +1,60 @@
+@media only screen and (min-width: 36rem) {
+  nav {
+    font-family: "Righteous", cursive;
+  }
+
+  nav ul li a {
+    padding: 0%;
+    font-size: 2rem;
+  }
+  h2, h3 {
+    text-align: left;
+  }
+  #currentweather {
+    width: 20%;
+    float: right;
+  
+  }
+  .forecasttable {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    grid-gap: 10px;
+    padding: 10px;
+    width: 100%;
+  }
+  .weathercond {
+    width: 20;
+  }
+  #day1cond {
+    grid-row-start: 2;
+    grid-column-start: 1;
+  }
+  #day1temp {
+    grid-row-start: 3;
+    grid-column-start: 1;
+  }
+  #day2cond {
+    grid-row-start: 2;
+    grid-column-start: 2;
+  }
+  #day2temp {
+    grid-row-start: 3;
+    grid-column-start: 2;
+  }
+  #day3cond {
+    grid-row-start: 2;
+    grid-column-start: 3;
+  }
+  #day3temp {
+    grid-row-start: 3;
+    grid-column-start: 3;
+  }
+  #day4cond {
+    grid-row-start: 2;
+    grid-column-start: 4;
+  }
+  #day4temp {
+    grid-row-start: 3;
+    grid-column-start: 4;
+  }
+}

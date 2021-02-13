@@ -32,5 +32,6 @@
     width: 35%;
     float: right;
     padding-left: 25px;
+    max-width: 40%;
   }
 }

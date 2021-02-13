@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This is the Preston Page that has relevant weather information for Preston, Idaho.">
+    <title>Preston, Idaho</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Righteous&family=Solway:wght@400;500&display=swap" rel="stylesheet">
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/small.css" rel="stylesheet">
+    <link href="css/medium.css" rel="stylesheet">
+    <link href="css/large.css" rel="stylesheet">
+    <link rel="shortcut icon" href="../favicon.ico">
+    </head>
+    <body>
+ <header>
+     <div id="banner"></div>
+     <img id="logo" src="images/twologo.png" alt="outsiderslogo">
+     <h1>The Weather Outsiders</h1>
+     <div class="motto">The Best Weather Checker on the Web</div>
+</header>     
+<nav class="clearfix">
+        <button onclick="toggleMenu()">&#9776; Menu</button>
+        <ul id="primaryNav" class="hide">
+            <li><a>Home</a></li>
+            <li class="active"><a href="preston-6.html">Preston</a></li>
+            <li><a>Soda Springs</a></li>
+            <li><a>Fish Haven</a></li>
+            <li><a>Storm Center</a></li>
+            <li><a>Gallery</a></li>
+        </ul>
+    </nav>     
+
+ 
+ <main>
+    
+   <section class="titleandimg">
+     <h2 id="title">Preston, Idaho</h2>
+     
+            <img id="heroimage" src="images/HeroImage.jpg" alt="heroimage"></img>
+                <span id="phototag">Photo by <a href="https://unsplash.com/@ianscar?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Ian Scargill</a> on <a href="https://unsplash.com/s/photos/idaho?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
+        </section>
+         <section class="Weathersummary">
+                <h2 id="weathersum">Weather Summary</h2>
+         <img id="currentweather" src="images/cloudy.png" alt="currentweather">
+            <p>Currently: Cloudy<br>
+            High: <span id = "currenttemp">37</span> &#176;F<br>
+            <span id = "windchill"></span>
+            Humidity: 95%<br>
+            Precipitation: 32%<br>
+            Wind Speed: <span id = "currentwind">13 mph</span><br>
+        </p>
+    </section>
+    <section class="fiveday">            
+        <h2>5 Day Forecast</h2>
+        <div class="forecasttable">
+            <div class="days" id="day1"></div>
+            <img class="weathercond" id="day1cond" src="images/cloudy.png" alt="weather">
+            <div class="temp" id="day1temp">32 &#176;F</div>
+            <div class="days" id="day2"></div>
+            <img class="weathercond" id="day2cond" src="images/sunny.png" alt="weather">
+            <div class="temp" id="day2temp">40 &#176;F</div>
+            <div class="days" id="day3"></div>
+            <img class="weathercond" id="day3cond" src="images/sunny.png" alt="weather">
+            <div class="temp" id="day3temp">45 &#176;F</div>
+            <div class="days" id="day4"></div>
+            <img class="weathercond" id="day4cond" src="images/cloudy.png" alt="weather">
+            <div class="temp" id="day4temp">38 &#176;F</div>
+            <div class="days" id="day5"></div>
+            <img class="weathercond" id="day5cond" src="images/cloudy.png" alt="weather">
+            <div class="temp" id="day5temp">30 &#176;F</div>
+    </div>
+    </section>
+    <section class="Article">
+        <h2>How to survive a blizzard &#128561</h2>
+        <img class="articleimg" src="images/blizzard.jpg" alt="blizzard">
+        <p class="content">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit expedita quo rem itaque non, tempora libero eum quisquam, sed dolorum consectetur perspiciatis eaque, numquam quis error fugiat atque optio repudiandae. 
+           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Adipisci sunt minus non laudantium quod, voluptas repellat reprehenderit, ea maxime sint dolorum. Eos necessitatibus natus, fuga dolorum suscipit voluptas consequuntur ad.
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia maiores neque distinctio, error adipisci necessitatibus quibusdam in, veritatis cupiditate magni earum tempore, itaque repellendus asperiores ratione ducimus? Et, eum repellendus.
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente accusantium, repellat corporis quis quaerat nihil iure sequi laboriosam voluptatum voluptas aut voluptates laborum rerum, eum aliquam architecto cumque adipisci minus?
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum architecto doloremque excepturi ab facilis magnam, aliquam suscipit molestiae in, ipsum sed. Velit nulla repudiandae nam corporis laboriosam id possimus veniam!
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad non sed odio odit facilis architecto similique deleniti, rem ducimus maxime, laborum veritatis blanditiis nemo ea quo sit, officiis nisi possimus!
+        
+        </p>
+ </section>
+</main>  
+ <footer>
+     <h2>Contact Information</h2>
+     <div>&#9993;: jongomez3377@gmail.com</div><br>
+     <div>&#9742;: 208-650-5809</div><br>
+     <img class="social" src="images/facebook.png" alt="socialmedia">
+     <img class="social" src="images/instagram.png" alt="socialmedia">
+     <img class="social" src="images/twitter.png" alt="socialmedia">
+     <img class="map" src="images/prestonmap.jpg" alt="mapofpreston">
+    &copy; <span id="currentyear"></span> The Weather Outsiders | Attibutions | Jonathon Gomez<br>
+    <span id="lastchange"></span>
+  </footer>
+  <script src="js/currentyear.js"></script>
+  <script src="js/lastmodfied.js"></script>
+  <script src="js/togglemenu.js"></script>
+  <script src="js/fivedays.js"></script>
+  <script src="js/banner.js"></script>
+  <script src="js/snailloop.js"></script>
+</body>
+</html>

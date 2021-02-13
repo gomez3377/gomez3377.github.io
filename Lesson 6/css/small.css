@@ -1,0 +1,166 @@
+body {
+  margin: 10px;
+}
+header, footer {
+  background-color: white;
+  color: #0093b8;
+  padding: 3px;
+}
+h1,
+h2,
+h3,
+nav,nav button,
+.motto {
+  font-weight: normal;
+}
+
+#logo {
+  float: left;
+  width: 7rem;
+}
+#banner{
+  color: white;
+  background-color: #002129;
+  text-align: center;
+  font-family: "Righteous", cursive;
+  letter-spacing: 2px;
+  display: flex;
+  justify-content: center;
+  font-weight: normal;
+}
+h1,
+.motto {
+  text-align: center;
+  font-family: "Righteous", cursive;
+  letter-spacing: 2px;
+}
+.motto {
+  color: #93341a;
+  padding-bottom: 25px;
+  font-size: 17px;
+}
+
+nav {
+  background-color: #002129;
+  font-family: "Righteous", cursive;
+  letter-spacing: 1px;
+  font-size: 1.25rem;
+}
+nav button {
+  background-color: transparent;
+  border: none;
+  color: white;
+  font-size: 30px;
+  letter-spacing: 3px;
+}
+nav ul {
+  list-style-type: none;
+  margin-top: 2.5%;
+  padding-left: 2%;
+}
+nav ul li {
+    padding:0.2rem
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+nav ul li a:hover {
+  background-color:#93341a;
+}
+nav ul li.active a {
+  background-color: white;
+  color: #002129;
+}
+nav ul.hide {
+  display: none;
+}
+h2{
+  text-align: center;
+  font-family: "Righteous", cursive;
+  letter-spacing: 2px;
+}
+.titleandimg {
+  color: #0093b8;
+}
+section{
+  margin: 0 auto;
+  padding: 20px;
+}
+#phototag {
+  font-size: 60%;
+  color: #002129;
+}
+#phototag a{
+  color: #93341a;
+}
+#phototag a:visited {
+  color: #93341a;
+}
+
+p{
+  font-family: "Soloway", serif;
+}
+#heroimage , .articleimg {
+  width: 100%
+}
+#currentweather {
+  width: 25%;
+  float: right;
+}
+.fiveday {
+  background-color: white;
+  color:#93341a;
+}
+.Weathersummary, .Article {
+  background-color: #93341a;
+  color: white;
+}
+.days, .temp {
+  display: flex;
+  justify-content: center;
+  font-family: 'Righteous', cursive;
+  font-style: normal;
+  letter-spacing: 2px;
+  color: white;
+}
+.days{
+  padding: 25px;
+  font-size: 24px;
+  background-color: #93341a;
+}
+.temp{
+  padding: 15px;
+  font-size: 16px;
+  background-color: #002129;
+}
+.weathercond {
+  background-color: white;
+  width: 50%;
+  position: relative;
+  left: 20%;
+  padding: 20px;
+}
+
+footer {
+  background-color: #002129;
+  font-family: "Soloway", serif;
+  text-align: center;
+  color: white;
+  padding: 25px;
+}
+.social {
+  width: 32px;
+  padding: 2.5%;
+}
+.map {
+  width: 100%;
+
+}
+/*----- Clearfix: Force an Element not to collapse -----*/
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
