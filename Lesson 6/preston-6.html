@@ -7,12 +7,14 @@
     <title>Preston, Idaho</title>
     <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Righteous&family=Solway:wght@400;500&display=swap" rel="stylesheet">
-    <link href="css/normalize.css" rel="stylesheet">
+ 
+<link href="css/normalize.css" rel="stylesheet">
     <link href="css/small.css" rel="stylesheet">
     <link href="css/medium.css" rel="stylesheet">
     <link href="css/large.css" rel="stylesheet">
     <link rel="shortcut icon" href="../favicon.ico">
-    </head>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+</head>
     <body>
  <header>
      <div id="banner"></div>
@@ -38,18 +40,22 @@
    <section class="titleandimg">
      <h2 id="title">Preston, Idaho</h2>
      
-            <img id="heroimage" src="images/HeroImage.jpg" alt="heroimage"></img>
-                <span id="phototag">Photo by <a href="https://unsplash.com/@ianscar?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Ian Scargill</a> on <a href="https://unsplash.com/s/photos/idaho?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
+            <img id="heroimage" src="images/franklinOriginal.jpeg" alt="heroimage"
+                srcset="images/franklinLarge.jpg 1000w, 
+                images/franklinMedium.jpg 500w ,
+                images/franklinSmall.jpg 200w">
+            </img>
+                <figcaption id="phototag">Photo by <a href="https://unsplash.com/@ianscar?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Ian Scargill</a> on <a href="https://unsplash.com/s/photos/idaho?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></figcaption>
         </section>
          <section class="Weathersummary">
                 <h2 id="weathersum">Weather Summary</h2>
          <img id="currentweather" src="images/cloudy.png" alt="currentweather">
             <p>Currently: Cloudy<br>
             High: <span id = "currenttemp">37</span> &#176;F<br>
-            <span id = "windchill"></span>
+            <span id = "windchill"></span><br>
             Humidity: 95%<br>
             Precipitation: 32%<br>
-            Wind Speed: <span id = "currentwind">13 mph</span><br>
+            Wind Speed: <span id = "currentwind">13</span> mph<br>
         </p>
     </section>
     <section class="fiveday">            
@@ -75,13 +81,7 @@
     <section class="Article">
         <h2>How to survive a blizzard &#128561</h2>
         <img class="articleimg" src="images/blizzard.jpg" alt="blizzard">
-        <p class="content">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit expedita quo rem itaque non, tempora libero eum quisquam, sed dolorum consectetur perspiciatis eaque, numquam quis error fugiat atque optio repudiandae. 
-           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Adipisci sunt minus non laudantium quod, voluptas repellat reprehenderit, ea maxime sint dolorum. Eos necessitatibus natus, fuga dolorum suscipit voluptas consequuntur ad.
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia maiores neque distinctio, error adipisci necessitatibus quibusdam in, veritatis cupiditate magni earum tempore, itaque repellendus asperiores ratione ducimus? Et, eum repellendus.
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente accusantium, repellat corporis quis quaerat nihil iure sequi laboriosam voluptatum voluptas aut voluptates laborum rerum, eum aliquam architecto cumque adipisci minus?
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum architecto doloremque excepturi ab facilis magnam, aliquam suscipit molestiae in, ipsum sed. Velit nulla repudiandae nam corporis laboriosam id possimus veniam!
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad non sed odio odit facilis architecto similique deleniti, rem ducimus maxime, laborum veritatis blanditiis nemo ea quo sit, officiis nisi possimus!
-        
+        <p class="content">At auctor urna nunc id cursus metus aliquam eleifend mi. Dolor sed viverra ipsum nunc aliquet. Arcu cursus vitae congue mauris. Cum sociis natoque penatibus et. Arcu risus quis varius quam quisque id diam vel. Tincidunt vitae semper quis lectus. Tempus urna et pharetra pharetra massa massa ultricies mi quis. In hac habitasse platea dictumst vestibulum rhoncus est pellentesque. Habitant morbi tristique senectus et netus et malesuada. Neque vitae tempus quam pellentesque nec nam aliquam. Pulvinar etiam non quam lacus suspendisse. Lobortis feugiat vivamus at augue eget arcu dictum varius duis. Scelerisque mauris pellentesque pulvinar pellentesque habitant morbi. In ante metus dictum at tempor commodo ullamcorper. Sed vulputate mi sit amet mauris commodo quis imperdiet massa. Sit amet consectetur adipiscing elit duis tristique. Pellentesque sit amet porttitor eget dolor morbi. Elit duis tristique sollicitudin nibh sit amet commodo.
         </p>
  </section>
 </main>  
@@ -101,6 +101,6 @@
   <script src="js/togglemenu.js"></script>
   <script src="js/fivedays.js"></script>
   <script src="js/banner.js"></script>
-  <script src="js/snailloop.js"></script>
+  <script src="js/windchill.js"></script>
 </body>
 </html>

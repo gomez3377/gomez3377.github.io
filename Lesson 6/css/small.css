@@ -1,7 +1,8 @@
 body {
   margin: 10px;
 }
-header, footer {
+header,
+footer {
   background-color: white;
   color: #0093b8;
   padding: 3px;
@@ -9,7 +10,8 @@ header, footer {
 h1,
 h2,
 h3,
-nav,nav button,
+nav,
+nav button,
 .motto {
   font-weight: normal;
 }
@@ -18,7 +20,7 @@ nav,nav button,
   float: left;
   width: 7rem;
 }
-#banner{
+#banner {
   color: white;
   background-color: #002129;
   text-align: center;
@@ -39,6 +41,7 @@ h1,
   padding-bottom: 25px;
   font-size: 17px;
 }
+/*--------------Navigation Bar-------------*/
 
 nav {
   background-color: #002129;
@@ -59,7 +62,7 @@ nav ul {
   padding-left: 2%;
 }
 nav ul li {
-    padding:0.2rem
+  padding: 0.2rem;
 }
 
 nav ul li a {
@@ -67,7 +70,7 @@ nav ul li a {
   color: white;
 }
 nav ul li a:hover {
-  background-color:#93341a;
+  background-color: #93341a;
 }
 nav ul li.active a {
   background-color: white;
@@ -76,34 +79,43 @@ nav ul li.active a {
 nav ul.hide {
   display: none;
 }
-h2{
+
+/*-------------Weather Conditions-------------*/
+
+h2 {
   text-align: center;
   font-family: "Righteous", cursive;
   letter-spacing: 2px;
 }
-.titleandimg {
+main section.titleandimg {
   color: #0093b8;
+  width: 90%;
 }
-section{
+main section {
   margin: 0 auto;
   padding: 20px;
 }
-#phototag {
+main section.titleandimg img#heroimage {
+  width: 100%;
+}
+figcaption#phototag {
   font-size: 60%;
   color: #002129;
 }
-#phototag a{
+figcaption#phototag a {
   color: #93341a;
 }
-#phototag a:visited {
+figcaption#phototag a:visited {
   color: #93341a;
 }
 
-p{
+p {
   font-family: "Soloway", serif;
 }
-#heroimage , .articleimg {
-  width: 100%
+
+
+.articleimg {
+  width: 100%;
 }
 #currentweather {
   width: 25%;
@@ -111,26 +123,28 @@ p{
 }
 .fiveday {
   background-color: white;
-  color:#93341a;
+  color: #93341a;
 }
-.Weathersummary, .Article {
+.Weathersummary,
+.Article {
   background-color: #93341a;
   color: white;
 }
-.days, .temp {
+.days,
+.temp {
   display: flex;
   justify-content: center;
-  font-family: 'Righteous', cursive;
+  font-family: "Righteous", cursive;
   font-style: normal;
   letter-spacing: 2px;
   color: white;
 }
-.days{
+.days {
   padding: 25px;
   font-size: 24px;
   background-color: #93341a;
 }
-.temp{
+.temp {
   padding: 15px;
   font-size: 16px;
   background-color: #002129;
@@ -156,7 +170,6 @@ footer {
 }
 .map {
   width: 100%;
-
 }
 /*----- Clearfix: Force an Element not to collapse -----*/
 .clearfix:after {

@@ -19,19 +19,24 @@
   h3 {
     text-align: center;
   }
-  .Weathersummary {
+  main section.Weathersummary {
+    width: 25%;
     position: absolute;
     top: 350px;
+    left: 125px;
     background-color: #99341a;
     border: 1px solid #000;
     opacity: 0.9;
     color: white;
   }
+  main section img#currentweather {
+    float: right;
+    width: 25%;
+  }
 
-  .articleimg {
-    width: 35%;
+  main section.Article img.articleimg {
+    width: 20%;
     float: right;
     padding-left: 25px;
-    max-width: 40%;
   }
 }
