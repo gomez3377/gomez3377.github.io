@@ -1,0 +1,19 @@
+h1 {
+    color: seagreen;
+    text-align: center;
+}
+[data-src] {
+    filter: blur(0em);
+    padding: 20px;
+    
+}
+
+picture img [src] {
+    filter: blur(0.2em);
+    transition: filter 0.5s;
+    
+    
+    
+}
+
+
