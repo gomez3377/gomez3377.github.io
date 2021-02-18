@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gallery</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant&family=Righteous&display=swap"
+      rel="stylesheet"
+    />
+    <!--CSS Stylesheets-->
+    <link href="../Lesson 6/css/normalize.css" rel="stylesheet" />
+    <link href="../Lesson 6/css/small.css" rel="stylesheet" />
+    <link href="../Lesson 6/css/medium.css" rel="stylesheet" />
+    <link href="../Lesson 6/css/large.css" rel="stylesheet" />
+    <link rel="shortcut icon" href="../favicon.ico" />
+  </head>
+  <body>
+    <header>
+      <div id="banner"></div>
+      <img id="logo" src="../Lesson 6/images/twologo.png" alt="outsiderslogo" />
+      <h1>The Weather Outsiders</h1>
+      <div class="motto">The Best Weather Checker on the Web</div>
+    </header>
+    <nav class="clearfix">
+      <button onclick="toggleMenu()">&#9776; Menu</button>
+      <ul id="primaryNav" class="hide">
+        <li><a>Home</a></li>
+        <li><a href="../Lesson 6/preston-6.html">Preston</a></li>
+        <li><a>Soda Springs</a></li>
+        <li><a>Fish Haven</a></li>
+        <li><a>Storm Center</a></li>
+        <li class="active"><a href="gallery-7.html">Gallery</a></li>
+      </ul>
+    </nav>
+
+    <!--Photo Gallery-->
+
+    <section class="imggallery">
+      <h1>Weather Gallery</h1>
+      <div class="gallerytable">
+        <figure>
+          <img
+            src="images/cloud.jpg"
+            alt="cloud"
+            srcset="
+              images/cloud1200px.jpg 1200w,
+              images/cloud500px.jpg   500w,
+              images/cloud200px.jpg   200w
+            "
+          />
+          <figcaption class="gallerycap">A Partly Cloudy Day</figcaption>
+        </figure>
+        <figure>
+          <img
+            src="images/fallstreet.jpg"
+            alt="fallstreet"
+            srcset="
+              images/fallstreet1200px.jpg 1200w,
+              images/fallstreet500px.jpg   500w,
+              images/fallstreet200px.jpg   200w
+            "
+          />
+          <figcaption class="gallerycap">A Street Full of Leaves</figcaption>
+        </figure>
+        <figure>
+          <img
+            src="images/foggymtn.jpg"
+            alt="foggymtn"
+            srcset="
+              images/foggymtn1200px.jpg 1200w,
+              images/foggymtn500px.jpg   500w,
+              images/foggymtn200px.jpg   200w
+            "
+          />
+          <figcaption class="gallerycap">Misty Mountains</figcaption>
+        </figure>
+        <figure>
+          <img
+            src="images/rainbow.jpg"
+            alt="rainbow"
+            srcset="
+              images/rainbow1200px.jpg 1200w,
+              images/rainbow500px.jpg   500w,
+              images/rainbow200px.jpg   200w
+            "
+          />
+          <figcaption class="gallerycap">Idaho Rainbow</figcaption>
+        </figure>
+        <figure>
+          <img
+            src="images/sunsetstormcloud.jpg"
+            alt="sunsetstormcloud"
+            srcset="
+              images/sunsetstormcloud1200px.jpg 1200w,
+              images/sunsetstormcloud500px.jpg   500w,
+              images/sunsetstormcloud200px.jpg   200w
+            "
+          />
+          <figcaption class="gallerycap">Sunset After a Rainstom</figcaption>
+        </figure>
+        <figure>
+          <img
+            src="images/redcloud.jpg"
+            alt="redcloud"
+            srcset="
+              images/redcloud1200px.jpg 1200w,
+              images/redcloud500px.jpg   500w,
+              images/redcloud200px.jpg   200w
+            "
+          />
+          <figcaption class="gallerycap">Red Clouds</figcaption>
+        </figure>
+        <figure>
+          <img
+            src="images/thunderstorm.jpg"
+            alt="thunderstorm"
+            srcset="
+              images/thunderstorm1200px.jpg 1200w,
+              images/thunderstorm500px.jpg   500w,
+              images/thunderstorm200px.jpg   200w
+            "
+          />
+          <figcaption class="gallerycap">Idaho Thunderstorm</figcaption>
+        </figure>
+        <figure>
+          <img
+            src="images/wintersunset.jpg"
+            alt="wintersunset"
+            srcset="
+              images/wintersunset1200px.jpg 1200w,
+              images/wintersunset500px.jpg   500w,
+              images/wintersunset200px       200w
+            "
+          />
+          <figcaption class="gallerycap">A Winter Sunset</figcaption>
+        </figure>
+        <figure>
+          <img
+            src="images/snowingmtn.jpg"
+            alt="snowingmtn"
+            srcset="
+              images/snowingmtn1200px.jpg 1200w,
+              images/snowingmtn500px.jpg   500w,
+              images/snowingmtn200px.jpg   200w
+            "
+          />
+          <figcaption class="gallerycap">A Snowy Mountain</figcaption>
+        </figure>
+      </div>
+    </section>
+    <footer>
+      <h1>Contact Information</h1>
+      <div>&#9993;: jongomez3377@gmail.com</div>
+      <br />
+      <div>&#9742;: 208-650-5809</div>
+      <br />
+      <div class="socialgrid">
+      <img
+        class="social"
+        src="../Lesson 6/images/facebook.png"
+        alt="socialmedia"
+      />
+      <img
+        class="social"
+        src="../Lesson 6/images/instagram.png"
+        alt="socialmedia"
+      />
+      <img
+        class="social"
+        src="../Lesson 6/images/twitter.png"
+        alt="socialmedia"
+      />
+    </div>
+      &copy; <span id="currentyear"></span> The Weather Outsiders | Attibutions
+      | Jonathon Gomez<br />
+      <span id="lastchange"></span>
+    </footer>
+    <!--Javascript Links-->
+    <script src="../Lesson 6/js/currentyear.js"></script>
+    <script src="../Lesson 6/js/lastmodfied.js"></script>
+    <script src="../Lesson 6/js/togglemenu.js"></script>
+    <script src="../Lesson 6/js/banner.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script src="../Lesson 6/js/webfontload.js"></script>
+  </body>
+</html>

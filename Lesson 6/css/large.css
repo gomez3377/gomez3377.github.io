@@ -1,4 +1,5 @@
 @media only screen and (min-width: 78rem) {
+  
   nav button {
     display: none;
   }
@@ -45,5 +46,12 @@
     width: 20%;
     float: left;
     padding: 25px;
+  }
+  div.gallerytable {
+    display: grid;
+    grid-template-columns: 300fr 300fr 300fr;
+    grid-gap: 10px;
+    padding: 10px;
+    width: 100%;
   }
 }

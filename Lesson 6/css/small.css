@@ -87,7 +87,7 @@ h2 {
   font-family: "Righteous", cursive;
   letter-spacing: 2px;
 }
-main section.titleandimg {
+main section.titleandimg, main section.imggallery {
   color: #0093b8;
   width: 90%;
 }
@@ -121,7 +121,7 @@ main section.Article img.articleimg2 {
   width: 25%;
   float: right;
 }
-.fiveday {
+.fiveday, .imggallery {
   background-color: white;
   color: #93341a;
 }
@@ -170,6 +170,20 @@ footer {
 }
 .map {
   width: 100%;
+}
+div.gallerytable figure {
+  background-color: #002129;
+}
+div.gallerytable figure img {
+  width: 100%;
+}
+div.gallerytable figure figcaption.gallerycap {
+  font-family: "Righteous", cursive;
+  color: white;
+  text-align: center;
+  font-style: normal;
+  letter-spacing: 2px;
+  padding: 10px;
 }
 /*----- Clearfix: Force an Element not to collapse -----*/
 .clearfix:after {

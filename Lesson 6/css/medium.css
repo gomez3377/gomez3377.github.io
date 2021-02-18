@@ -7,13 +7,16 @@
     padding: 0%;
     font-size: 2rem;
   }
-  h2, h3 {
+  footer h1 {
+    text-align: center;
+  }
+  h2,
+  h3 {
     text-align: left;
   }
   #currentweather {
     width: 20%;
     float: right;
-  
   }
   .forecasttable {
     display: grid;
@@ -22,7 +25,7 @@
     padding: 10px;
     width: 100%;
   }
-  
+
   #day1cond {
     grid-row-start: 2;
     grid-column-start: 1;
@@ -54,5 +57,21 @@
   #day4temp {
     grid-row-start: 3;
     grid-column-start: 4;
+  }
+
+  div.gallerytable {
+    display: grid;
+    grid-template-columns: 300fr 300fr;
+    grid-gap: 10px;
+    padding: 10px;
+    width: 100%;
+  }
+  footer div.socialtable {
+    display: grid;
+    grid-template-columns: repeat(3 , 50px);
+    
+  }
+  footer div.socialtable img {
+    width: 100%;
   }
 }
