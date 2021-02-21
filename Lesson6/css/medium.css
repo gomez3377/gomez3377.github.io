@@ -7,13 +7,10 @@
     padding: 0%;
     font-size: 2rem;
   }
-  footer h1 {
+  footer, h1, h2 {
     text-align: center;
   }
-  h2,
-  h3 {
-    text-align: left;
-  }
+ 
   #currentweather {
     width: 20%;
     float: right;
