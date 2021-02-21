@@ -1,20 +1,19 @@
 picture img[data-src] {
-    filter: blur(0.2em);
-    padding: 20px;
-    justify-content: center;
+  filter: blur(0.2em);
+  padding: 20px;
+  justify-content: center;
 }
 
 picture img {
-    filter: blur(0em);
-    transition: filter 0.5s;
-    padding: 20px;
-     
+  filter: blur(0em);
+  transition: filter 0.5s;
+  padding: 20px;
 }
 h1 {
-    background-color: #e85d75;
-    color: white;
-    font-family: "Righteous" , cursive;
-    text-align: center;
-    letter-spacing: 5px;
-    font-weight: lighter;
+  background-color: #e85d75;
+  color: white;
+  font-family: "Righteous", cursive;
+  text-align: center;
+  letter-spacing: 5px;
+  font-weight: lighter;
 }
