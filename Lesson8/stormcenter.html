@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="This is the Preston Page that has relevant weather information for Preston, Idaho."
+    />
+    <title>Storm Center</title>
+    <!--CSS Stylesheets-->
+    <link href="../Lesson6/css/normalize.css" rel="stylesheet" />
+    <link href="../Lesson6/css/small.css" rel="stylesheet" />
+    <link href="../Lesson6/css/medium.css" rel="stylesheet" />
+    <link href="../Lesson6/css/large.css" rel="stylesheet" />
+    <link rel="shortcut icon" href="../favicon.ico" />
+  </head>
+  <body>
+    <header>
+        <div id="banner"></div>
+        <img id="logo" src="../Lesson6/images/twologo.png" alt="outsiderslogo" />
+        <h1>The Weather Outsiders</h1>
+        <div class="motto">The Best Weather Checker on the Web</div>
+      </header>
+      <nav class="clearfix">
+        <button onclick="toggleMenu()">&#9776; Menu</button>
+        <ul id="primaryNav" class="hide">
+          <li><a>Home</a></li>
+          <li><a href="../Lesson6/preston-6.html">Preston</a></li>
+          <li><a>Soda Springs</a></li>
+          <li><a>Fish Haven</a></li>
+          <li class="active"><a href="stormcenter.html">Storm Center</a></li>
+          <li><a href="../Lesson7/gallery-7.html">Gallery</a></li>
+        </ul>
+      </nav>
+      <footer>
+        <h1>Contact Information</h1>
+        <div>&#9993;: jongomez3377@gmail.com</div>
+        <br />
+        <div>&#9742;: 208-650-5809</div>
+        <br />
+        <div class="socialgrid">
+          <img
+            class="social"
+            src="../Lesson6/images/facebook.png"
+            alt="socialmedia"
+          />
+          <img
+            class="social"
+            src="../Lesson6/images/instagram.png"
+            alt="socialmedia"
+          />
+          <img
+            class="social"
+            src="../Lesson6/images/twitter.png"
+            alt="socialmedia"
+          />
+        </div>
+        &copy; <span id="currentyear"></span> The Weather Outsiders | Attibutions
+        | Jonathon Gomez<br />
+        <span id="lastchange"></span>
+      </footer>
+      <!--Javascript Links-->
+      <script src="../Lesson6/js/currentyear.js"></script>
+      <script src="../Lesson6/js/lastmodfied.js"></script>
+      <script src="../Lesson6/js/togglemenu.js"></script>
+      <script src="../Lesson6/js/banner.js"></script>
+      <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+      <script src="../Lesson6/js/webfontload.js"></script>
+    </body>
+  </html>

@@ -1,8 +1,8 @@
 WebFont.load({
     google: {
         families: [
-            'Righteous',
-            'Cormorant'
+            'Rokkitt',
+            'Vollkorn SC'
         ]
     }
 })
