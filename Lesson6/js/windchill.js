@@ -1,7 +1,7 @@
-let temp = document.getElementById("currenttemp");
-let windspeed = document.getElementById("currentwind");
+let temp = parseFloat(document.getElementById("currenttemp").innerHTML);
+let windspeed = parseFloat(document.getElementById("currentwind").innerHTML);
 
-if (temp <= 50 && windspeed > 4.8) {
+if (temp <= 50 && windspeed > 3.0) {
   let chill = windchill(temp, windspeed);
   document.getElementById("windchill").innerHTML =
     "Wind Chill: " + chill + "&#176;F";

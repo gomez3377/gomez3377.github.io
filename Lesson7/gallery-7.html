@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gallery</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant&family=Righteous&display=swap"
+      rel="stylesheet"
+    />
+    <!--CSS Stylesheets-->
+    <link href="../Lesson6/css/normalize.css" rel="stylesheet" />
+    <link href="../Lesson6/css/small.css" rel="stylesheet" />
+    <link href="../Lesson6/css/medium.css" rel="stylesheet" />
+    <link href="../Lesson6/css/large.css" rel="stylesheet" />
+    <link rel="shortcut icon" href="../favicon.ico" />
+  </head>
+  <body>
+    <header>
+      <div id="banner"></div>
+      <img id="logo" src="../Lesson6/images/twologo.png" alt="outsiderslogo" />
+      <h1>The Weather Outsiders</h1>
+      <div class="motto">The Best Weather Checker on the Web</div>
+    </header>
+    <nav class="clearfix">
+      <button onclick="toggleMenu()">&#9776; Menu</button>
+      <ul id="primaryNav" class="hide">
+        <li><a>Home</a></li>
+        <li><a href="../Lesson6/preston-6.html">Preston</a></li>
+        <li><a>Soda Springs</a></li>
+        <li><a>Fish Haven</a></li>
+        <li><a>Storm Center</a></li>
+        <li class="active"><a href="gallery-7.html">Gallery</a></li>
+      </ul>
+    </nav>
+
+    <!--Photo Gallery-->
+
+    <section class="imggallery">
+      <h2>Weather Gallery</h2>
+      <div class="gallerytable">
+        <figure>
+          <img
+            src="https://via.placeholder.com/200.png/002129?text=two.com"
+            data-src="images/cloud200px.jpg"
+            alt="cloud"
+            data-srcset="
+              images/cloud200px.jpg 200w,
+              images/cloud500px.jpg 500w,
+              images/cloud800px.jpg 800w
+            "
+          />
+          <figcaption class="gallerycap">A Partly Cloudy Day</figcaption>
+        </figure>
+        <figure>
+          <img
+            src="https://via.placeholder.com/200.png/002129?text=two.com"
+            data-src="images/fallstreet200px.jpg"
+            alt="fallstreet"
+            data-srcset="
+              images/fallstreet200px.jpg 200w,
+              images/fallstreet500px.jpg 500w,
+              images/fallstreet800px.jpg 800w
+            "
+          />
+          <figcaption class="gallerycap">A Street Full of Leaves</figcaption>
+        </figure>
+        <figure>
+          <img
+            src="https://via.placeholder.com/200.png/002129?text=two.com"
+            data-src="images/foggymtn200px.jpg"
+            alt="foggymtn"
+            data-srcset="
+              images/foggymtn200px.jpg 200w,
+              images/foggymtn500px.jpg 500w,
+              images/foggymtn800px.jpg 800w
+            "
+          />
+          <figcaption class="gallerycap">Misty Mountains</figcaption>
+        </figure>
+        <figure>
+          <img
+            src="https://via.placeholder.com/200.png/002129?text=two.com"
+            data-src="images/rainbow200px.jpg"
+            alt="rainbow"
+            data-srcset="
+              images/rainbow200px.jpg 200w,
+              images/rainbow500px.jpg 500w,
+              images/rainbow800px.jpg 800w
+            "
+          />
+          <figcaption class="gallerycap">Idaho Rainbow</figcaption>
+        </figure>
+        <figure>
+          <img
+            src="https://via.placeholder.com/200.png/002129?text=two.com"
+            data-src="images/sunsetstormcloud200px.jpg"
+            alt="sunsetstormcloud"
+            data-srcset="
+              images/sunsetstormcloud200px.jpg 200w,
+              images/sunsetstormcloud500px.jpg 500w,
+              images/sunsetstormcloud800px.jpg 800w
+            "
+          />
+          <figcaption class="gallerycap">Sunset After a Rainstom</figcaption>
+        </figure>
+        <figure>
+          <img
+            src="https://via.placeholder.com/200.png/002129?text=two.com"
+            data-src="images/redcloud200px.jpg"
+            alt="redcloud"
+            data-srcset="
+              images/redcloud200px.jpg 200w,
+              images/redcloud500px.jpg 500w,
+              images/redcloud800px.jpg 800w
+            "
+          />
+          <figcaption class="gallerycap">Red Clouds</figcaption>
+        </figure>
+        <figure>
+          <img
+            src="https://via.placeholder.com/200.png/002129?text=two.com"
+            data-src="images/thunderstorm200px.jpg"
+            alt="thunderstorm"
+            data-srcset="
+              images/thunderstorm800px.jpg 200w,
+              images/thunderstorm500px.jpg 500w,
+              images/thunderstorm200px.jpg 800w
+            "
+          />
+          <figcaption class="gallerycap">Idaho Thunderstorm</figcaption>
+        </figure>
+        <figure>
+          <img
+            src="https://via.placeholder.com/200.png/002129?text=two.com"
+            data-src="images/wintersunset200px.jpg"
+            alt="wintersunset"
+            data-srcset="
+              images/wintersunset200px.jpg 200w,
+              images/wintersunset500px.jpg 500w,
+              images/wintersunset800px.jpg 800w
+            "
+          />
+          <figcaption class="gallerycap">A Winter Sunset</figcaption>
+        </figure>
+        <figure>
+          <img
+            src="https://via.placeholder.com/200.png/002129?text=two.com"
+            data-src="images/snowingmtn.jpg"
+            alt="snowingmtn"
+            data-srcset="
+              images/snowingmtn200px.jpg 200w,
+              images/snowingmtn500px.jpg 500w,
+              images/snowingmtn800px.jpg 800w
+            "
+          />
+          <figcaption class="gallerycap">A Snowy Mountain</figcaption>
+        </figure>
+      </div>
+    </section>
+    <footer>
+      <h1>Contact Information</h1>
+      <div>&#9993;: jongomez3377@gmail.com</div>
+      <br />
+      <div>&#9742;: 208-650-5809</div>
+      <br />
+      <div class="socialgrid">
+        <img
+          class="social"
+          src="../Lesson6/images/facebook.png"
+          alt="socialmedia"
+        />
+        <img
+          class="social"
+          src="../Lesson6/images/instagram.png"
+          alt="socialmedia"
+        />
+        <img
+          class="social"
+          src="../Lesson6/images/twitter.png"
+          alt="socialmedia"
+        />
+      </div>
+      &copy; <span id="currentyear"></span> The Weather Outsiders | Attibutions
+      | Jonathon Gomez<br />
+      <span id="lastchange"></span>
+    </footer>
+    <!--Javascript Links-->
+    <script src="../Lesson6/js/currentyear.js"></script>
+    <script src="../Lesson6/js/lastmodfied.js"></script>
+    <script src="../Lesson6/js/togglemenu.js"></script>
+    <script src="../Lesson6/js/banner.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script src="../Lesson6/js/webfontload.js"></script>
+    <script src="js/loadimages.js"></script>
+  </body>
+</html>

@@ -184,6 +184,10 @@ div.gallerytable figure figcaption.gallerycap {
   font-style: normal;
   letter-spacing: 2px;
   padding: 10px;
+
+}
+div.gallerytable figure:hover {
+  box-shadow: 0 0 50px #002129;
 }
 /*----- Clearfix: Force an Element not to collapse -----*/
 .clearfix:after {

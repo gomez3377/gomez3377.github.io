@@ -4,8 +4,10 @@
     display: none;
   }
   nav ul li {
+    display: inline-flex;
+    flex: 1 1 auto;
+    margin: auto;
     float: left;
-    padding: 0.5rem;
   }
   nav ul.hide {
     display: block;
