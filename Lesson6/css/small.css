@@ -1,10 +1,10 @@
 /*--------------------Main body--------------*/
 body {
   margin: 10px;
+  background-color: #fafeff;
 }
 header,
 footer {
-  background-color: white;
   color: #0093b8;
   padding: 3px;
 }
@@ -22,7 +22,7 @@ nav button,
   width: 7rem;
 }
 #banner {
-  color: white;
+  color:#fafeff;
   background-color: #002129;
   text-align: center;
   font-family: "Righteous", cursive;
@@ -53,7 +53,7 @@ nav {
 nav button {
   background-color: transparent;
   border: none;
-  color: white;
+  color: #fafeff;
   font-size: 30px;
   letter-spacing: 3px;
 }
@@ -68,13 +68,13 @@ nav ul li {
 
 nav ul li a {
   text-decoration: none;
-  color: white;
+  color: #fafeff;
 }
 nav ul li a:hover {
   background-color: #93341a;
 }
 nav ul li.active a {
-  background-color: white;
+  background-color: #fafeff;
   color: #002129;
 }
 nav ul.hide {
@@ -99,14 +99,15 @@ main section {
 main section.titleandimg img#heroimage {
   width: 100%;
 }
-figcaption#phototag {
-  font-size: 60%;
+#phototag {
+  font-size: 0.8em;
   color: #002129;
+  font-family: "Cormorant", serif;
 }
-figcaption#phototag a {
+#phototag a {
   color: #93341a;
 }
-figcaption#phototag a:visited {
+#phototag a:visited {
   color: #93341a;
 }
 
@@ -123,13 +124,13 @@ main section.Article img.articleimg2 {
   float: right;
 }
 .fiveday, .imggallery {
-  background-color: white;
+  background-color: #fafeff;
   color: #93341a;
 }
 .Weathersummary,
 .Article {
   background-color: #93341a;
-  color: white;
+  color: #fafeff;
 }
 .days,
 .temp {
@@ -138,7 +139,7 @@ main section.Article img.articleimg2 {
   font-family: "Righteous", cursive;
   font-style: normal;
   letter-spacing: 2px;
-  color: white;
+  color: #fafeff;
 }
 .days {
   padding: 25px;
@@ -151,7 +152,7 @@ main section.Article img.articleimg2 {
   background-color: #002129;
 }
 .weathercond {
-  background-color: white;
+  background-color: #fafeff;
   width: 50%;
   position: relative;
   left: 20%;
@@ -162,7 +163,7 @@ footer {
   background-color: #002129;
   font-family: "Cormorant", serif;
   text-align: center;
-  color: white;
+  color: #fafeff;
   padding: 25px;
 }
 .social {
@@ -180,7 +181,7 @@ div.gallerytable figure img {
 }
 div.gallerytable figure figcaption.gallerycap {
   font-family: "Righteous", cursive;
-  color: white;
+  color: #fafeff;
   text-align: center;
   font-style: normal;
   letter-spacing: 2px;

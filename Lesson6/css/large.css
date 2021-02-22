@@ -1,10 +1,11 @@
 @media only screen and (min-width: 78rem) {
-  
+ /*----------Navigation Bar-------------*/
+
   nav button {
     display: none;
   }
   nav ul li {
-    display: inline-flex;
+    display: flexbox;
     flex: 1 1 auto;
     margin: auto;
     float: left;
@@ -22,6 +23,7 @@
   h3 {
     text-align: center;
   }
+  /*-----------Weather Summary Floating Box----------*/
   main section.Weathersummary {
     width: 25%;
     position: absolute;
@@ -29,9 +31,11 @@
     left: 125px;
     background-color: #99341a;
     border: 1px solid #000;
-    opacity: 0.9;
-    color: white;
+    opacity: 0.8;
+    color: #fafeff; 
+    font-size: 1rem;
   }
+
   main section img#currentweather {
     float: right;
     width: 35%;
