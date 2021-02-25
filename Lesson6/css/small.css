@@ -102,7 +102,7 @@ main section.titleandimg img#heroimage {
 #phototag {
   font-size: 0.8em;
   color: #002129;
-  font-family: "Cormorant", serif;
+  font-family: "Caudex", serif;
 }
 #phototag a {
   color: #93341a;
@@ -112,7 +112,7 @@ main section.titleandimg img#heroimage {
 }
 
 p {
-  font-family: "Cormorant", serif;
+  font-family: "Caudex", serif;
 }
 
 main section.Article img.articleimg,
@@ -161,7 +161,7 @@ main section.Article img.articleimg2 {
 
 footer {
   background-color: #002129;
-  font-family: "Cormorant", serif;
+  font-family: "Caudex", serif;
   text-align: center;
   color: #fafeff;
   padding: 25px;
@@ -190,6 +190,118 @@ div.gallerytable figure figcaption.gallerycap {
 }
 div.gallerytable figure:hover {
   box-shadow: 0 0 50px #002129;
+}
+/*----- Storm Center Form -----------*/
+h3 {
+  font-family: "Righteous", cursive;
+  font-size: 2rem;
+  color: #93341a;
+}
+body form {
+  padding: 1rem;
+  font-family: 'Caudex' , serif;
+  max-width: 24rem;
+}
+body form fieldset {
+  border: none;
+  border-radius: 20px;
+  padding: 1rem 0;
+  margin: 1.5rem 0;
+  background-color: #0093b8;
+}
+body form fieldset legend {
+  font-family: 'Righteous', cursive;
+  color: #0093b8;
+  font-size: 1.5rem;
+}
+
+.top, body form fieldset div {
+  display: block;
+  padding: 1rem;
+  color: white;
+  font-size: 1.5rem;
+  width: 100%;
+
+}
+form label.top input, form label.top select {
+  display: block;
+  font-size: 1.25rem;
+  padding: 1rem;
+  border: none;
+  border-radius: 4px;
+  color: #002129;
+  width: 100%;
+  max-width: 20rem;
+}
+
+form label.top input:required {
+  border-left: #93341a solid 6px;
+}
+
+form label.top input:required:valid {
+  border-left: #106326 solid 6px;
+}
+
+body form fieldset div.custom-vertical-radio-buttons {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: flex-start;
+}
+
+.customcontainer {
+	position: relative;
+	margin-bottom: 12px;
+	padding-left: 30px;
+  padding-bottom: 30px;
+	cursor: pointer;
+	font-size: 1.25rem !important;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+.customcontainer input {
+  position: absolute;
+  opacity: 0;
+  display: none;
+  cursor: pointer;
+}
+.custom-radio-button {
+	position: absolute;
+	top: 5px;
+	left: 0;
+	height: 15px;
+	width: 15px;
+	border: 1px solid #fafeff;
+	border-radius: 50%;
+}
+.customcontainer input ~ .custom-radio-button{
+  background-color: #fafeff;
+}
+.customcontainer input:checked ~ .custom-radio-button{
+  background-color: #93341a;
+}
+.customcontainer input:checked ~ .custom-radio-button::after {
+  display: block;
+}
+
+.sbs .custom-radio-button::after {
+  top: 4px;
+  left: 4px;
+  width: 5px;
+  height: 5px;
+  background-color: #002129;
+}
+body form label input.submitBtn {
+  border: none;
+  background-color: #93341a;
+  color: #fafeff;
+  border-radius: 15px;
+  font-family: "Righteous", cursive;
+  font-size: 2rem;
+  padding: 1.5rem;
+  width: 100%;
+  max-width: 24rem;
 }
 /*----- Clearfix: Force an Element not to collapse -----*/
 .clearfix:after {
