@@ -22,7 +22,7 @@ nav button,
   width: 7rem;
 }
 #banner {
-  color:#fafeff;
+  color: #fafeff;
   background-color: #002129;
   text-align: center;
   font-family: "Righteous", cursive;
@@ -88,7 +88,8 @@ h2 {
   font-family: "Righteous", cursive;
   letter-spacing: 2px;
 }
-main section.titleandimg, main section.imggallery {
+main section.titleandimg,
+main section.imggallery {
   color: #0093b8;
   width: 90%;
 }
@@ -123,7 +124,8 @@ main section.Article img.articleimg2 {
   width: 25%;
   float: right;
 }
-.fiveday, .imggallery {
+.fiveday,
+.imggallery {
   background-color: #fafeff;
   color: #93341a;
 }
@@ -186,7 +188,6 @@ div.gallerytable figure figcaption.gallerycap {
   font-style: normal;
   letter-spacing: 2px;
   padding: 10px;
-
 }
 div.gallerytable figure:hover {
   box-shadow: 0 0 50px #002129;
@@ -199,7 +200,7 @@ h3 {
 }
 body form {
   padding: 1rem;
-  font-family: 'Caudex' , serif;
+  font-family: "Caudex", serif;
   max-width: 24rem;
 }
 body form fieldset {
@@ -210,20 +211,22 @@ body form fieldset {
   background-color: #0093b8;
 }
 body form fieldset legend {
-  font-family: 'Righteous', cursive;
+  font-family: "Righteous", cursive;
   color: #0093b8;
   font-size: 1.5rem;
 }
 
-.top, body form fieldset div {
+.top,
+body form fieldset div,
+.textbx {
   display: block;
   padding: 1rem;
   color: white;
   font-size: 1.5rem;
-  width: 100%;
-
+  width: 80%;
 }
-form label.top input, form label.top select {
+form label.top input,
+form label.top select {
   display: block;
   font-size: 1.25rem;
   padding: 1rem;
@@ -232,6 +235,7 @@ form label.top input, form label.top select {
   color: #002129;
   width: 100%;
   max-width: 20rem;
+  margin-right: 10px;
 }
 
 form label.top input:required {
@@ -249,16 +253,16 @@ body form fieldset div.custom-vertical-radio-buttons {
 }
 
 .customcontainer {
-	position: relative;
-	margin-bottom: 12px;
-	padding-left: 30px;
+  position: relative;
+  margin-bottom: 12px;
+  padding-left: 30px;
   padding-bottom: 30px;
-	cursor: pointer;
-	font-size: 1.25rem !important;
-	-webkit-user-select: none;
-	-moz-user-select: none;
-	-ms-user-select: none;
-	user-select: none;
+  cursor: pointer;
+  font-size: 1.25rem !important;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 .customcontainer input {
   position: absolute;
@@ -267,18 +271,18 @@ body form fieldset div.custom-vertical-radio-buttons {
   cursor: pointer;
 }
 .custom-radio-button {
-	position: absolute;
-	top: 5px;
-	left: 0;
-	height: 15px;
-	width: 15px;
-	border: 1px solid #fafeff;
-	border-radius: 50%;
+  position: absolute;
+  top: 5px;
+  left: 0;
+  height: 15px;
+  width: 15px;
+  border: 1px solid #fafeff;
+  border-radius: 50%;
 }
-.customcontainer input ~ .custom-radio-button{
+.customcontainer input ~ .custom-radio-button {
   background-color: #fafeff;
 }
-.customcontainer input:checked ~ .custom-radio-button{
+.customcontainer input:checked ~ .custom-radio-button {
   background-color: #93341a;
 }
 .customcontainer input:checked ~ .custom-radio-button::after {
@@ -302,6 +306,27 @@ body form label input.submitBtn {
   padding: 1.5rem;
   width: 100%;
   max-width: 24rem;
+}
+
+.textbx textarea {
+  resize: none;
+}
+
+/*-------Thank You-------*/
+.thankyou h2 {
+  font-size: 2rem;
+  color: #93341a;
+}
+.thankyou div.smiley {
+  font-size: 10rem;
+  text-align: center;
+  padding: 2rem;
+}
+
+.thankyou p {
+  padding: 2rem;
+  font-size: 1.5rem;
+  text-align: center;
 }
 /*----- Clearfix: Force an Element not to collapse -----*/
 .clearfix:after {
