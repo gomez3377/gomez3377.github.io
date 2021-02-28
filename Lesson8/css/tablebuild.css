@@ -44,5 +44,6 @@ tfoot td {
     font-weight: bold;
 }
 #special {
-    font-style: italic;
+    background-color: #628ca6;
+    color: white;
 }
