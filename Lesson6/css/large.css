@@ -1,22 +1,22 @@
 @media only screen and (min-width: 78rem) {
  /*----------Navigation Bar-------------*/
 
-  nav button {
-    display: none;
+ nav button {
+  display: none;
   }
-  nav ul li {
-    display: flex;
-    float: left;
-    align-items: center;
+  #primaryNav {
+  display: flex;
+  margin-bottom: 0;
+  padding: 10px;
+  margin-left: 5rem;
 
   }
-  nav ul.hide {
-    display: block;
+  #primaryNav li {
+  display: block;
+  flex: 1 1 auto;
   }
-  nav ul li a {
-    border: none;
-    padding: .5rem 2rem;
-    font-size: 1.5rem;
+  nav ul{
+  font-size: 1.5rem;
   }
 
   h2,

@@ -246,6 +246,28 @@ form label.top input:required:valid {
   border-left: #106326 solid 6px;
 }
 
+.stormSeverity{
+  display: block;
+  padding: 1rem;
+  color: #fafeff;
+  font-size: 1.5rem;
+  width: 80%;
+}
+
+.stormRange {
+  display: block;
+  width: 70%;
+  color: #fafeff;
+  margin-top: 1.5px;
+}
+
+#ratingvalue {
+  display: flex;
+  position: relative;
+  left: 275px;
+  bottom: 25px;
+}
+
 body form fieldset div.custom-vertical-radio-buttons {
   display: flex;
   flex-flow: column nowrap;

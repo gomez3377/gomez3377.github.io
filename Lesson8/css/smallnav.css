@@ -1,0 +1,39 @@
+/*--------------Navigation Bar-------------*/
+nav {
+    background-color: #002129;
+    font-family: "Righteous", cursive;
+    letter-spacing: 1px;
+    font-size: 1.25rem;
+    text-align:center;
+    }
+    nav button {
+    background-color: transparent;
+    border: none;
+    color: #fafeff;
+    font-size: 30px;
+    letter-spacing: 3px;
+    }
+    nav ul {
+    list-style-type: none;
+    margin:0 auto;
+    }
+    nav ul li a {
+    display:block;
+    text-decoration: none;
+    color: #fafeff;
+    padding:1rem;
+    }
+    nav ul li a:hover {
+    background-color: #93341a;
+    }
+    nav ul li.active a {
+    background-color: #fafeff;
+    color: #002129;
+    border: #002129 solid 1px;
+    }
+    nav ul.hide {
+    display: none;
+    }
+    #primaryNav li:first-child {
+    display: block;
+    }

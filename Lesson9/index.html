@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="This is the Preston Page that has relevant weather information for Preston, Idaho."
+    />
+    <title>Preston, Idaho</title>
+    <!--CSS Stylesheets-->
+    <link href="css/normalize.css" rel="stylesheet" />
+    <link href="css/small.css" rel="stylesheet" />
+    <link href="css/medium.css" rel="stylesheet" />
+    <link href="css/large.css" rel="stylesheet" />
+    <link rel="shortcut icon" href="../favicon.ico" />
+  </head>
+  <body>
+    <header>
+      <div id="banner"></div>
+      <img id="logo" src="images/twologo.png" alt="outsiderslogo" />
+      <h1>The Weather Outsiders</h1>
+      <div class="motto">The Best Weather Checker on the Web</div>
+    </header>
+    <nav class="clearfix">
+      <button onclick="toggleMenu()">&#9776; Menu</button>
+      <ul id="primaryNav" class="hide">
+        <li><a>Home</a></li>
+        <li class="active"><a href="preston-6.html">Preston</a></li>
+        <li><a>Soda Springs</a></li>
+        <li><a>Fish Haven</a></li>
+        <li><a href="../Lesson8/stormcenter.html">Storm Center</a></li>
+        <li><a>Gallery</a></li>
+      </ul>
+    </nav>
+    <footer>
+        <h2>Contact Information</h2>
+        <div>&#9993;: jongomez3377@gmail.com</div>
+        <br />
+        <div>&#9742;: 208-650-5809</div>
+        <br />
+        <img class="social" src="images/facebook.png" alt="socialmedia" />
+        <img class="social" src="images/instagram.png" alt="socialmedia" />
+        <img class="social" src="images/twitter.png" alt="socialmedia" />
+        <img class="map" src="images/prestonmap.jpg" alt="mapofpreston" />
+        &copy; <span id="currentyear"></span> The Weather Outsiders | Attibutions
+        | Jonathon Gomez<br />
+        <span id="lastchange"></span>
+      </footer>
+      <!--Javascript Links-->
+      <script src="js/currentyear.js"></script>
+      <script src="js/lastmodfied.js"></script>
+      <script src="js/togglemenu.js"></script>
+      <script src="js/banner.js"></script>
+      <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+      <script src="js/webfontload.js"></script>
+    </body>
+  </html>
+  

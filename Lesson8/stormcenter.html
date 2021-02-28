@@ -64,15 +64,31 @@
             <option value="Tornado"></option>
           </datalist>
         </label>
-        <label class="top"
+        <label class="stormSeverity"
           >Storm Severity:
-          <input
+          <input class="stormRange"
             type="range"
             name="severity"
             min="1"
             max="10"
-            class="stormrange"
-        /></label>
+            step="1"
+            list="tickmarks"
+            oninput="adjustRating(this.value)"
+            onchange="adjustRating(this.value)"
+        /><span id="ratingvalue">5</span>
+        <datalist id="tickmarks">
+          <option value="1"></option>
+          <option value="2"></option>
+          <option value="3"></option>
+          <option value="4"></option>
+          <option value="5"></option>
+          <option value="6"></option>
+          <option value="7"></option>
+          <option value="8"></option>
+          <option value="9"></option>
+          <option value="10"></option>
+        </datalist>
+      </label>
         <label class="top"
           >Storm Region:
           <select name="region">
@@ -145,5 +161,6 @@
     <script src="../Lesson6/js/banner.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
     <script src="../Lesson6/js/webfontload.js"></script>
+    <script src="js/slider.js"></script>
   </body>
 </html>
