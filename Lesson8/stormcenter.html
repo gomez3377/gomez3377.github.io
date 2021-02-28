@@ -38,7 +38,13 @@
       <h2>Your Information</h2>
       <fieldset>
         <label class="top"
-          >Full Name*: <input type="text" name="fullname" required
+          >Full Name*:
+          <input
+            type="text"
+            name="fullname"
+            required
+            minlength="5"
+            pattern="[A-Za-z]"
         /></label>
         <label class="top"
           >Email:
@@ -66,7 +72,8 @@
         </label>
         <label class="stormSeverity"
           >Storm Severity:
-          <input class="stormRange"
+          <input
+            class="stormRange"
             type="range"
             name="severity"
             min="1"
@@ -75,20 +82,20 @@
             list="tickmarks"
             oninput="adjustRating(this.value)"
             onchange="adjustRating(this.value)"
-        /><span id="ratingvalue">5</span>
-        <datalist id="tickmarks">
-          <option value="1"></option>
-          <option value="2"></option>
-          <option value="3"></option>
-          <option value="4"></option>
-          <option value="5"></option>
-          <option value="6"></option>
-          <option value="7"></option>
-          <option value="8"></option>
-          <option value="9"></option>
-          <option value="10"></option>
-        </datalist>
-      </label>
+          /><span id="ratingvalue">5</span>
+          <datalist id="tickmarks">
+            <option value="1"></option>
+            <option value="2"></option>
+            <option value="3"></option>
+            <option value="4"></option>
+            <option value="5"></option>
+            <option value="6"></option>
+            <option value="7"></option>
+            <option value="8"></option>
+            <option value="9"></option>
+            <option value="10"></option>
+          </datalist>
+        </label>
         <label class="top"
           >Storm Region:
           <select name="region">
